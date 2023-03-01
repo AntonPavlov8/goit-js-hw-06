@@ -22,7 +22,6 @@ images.map((img) => {
     "beforeend",
     `<img src= ${img.url} alt=${img.alt}/>`
   );
-  console.log(listItem);
   fragment.appendChild(listItem);
 });
 
